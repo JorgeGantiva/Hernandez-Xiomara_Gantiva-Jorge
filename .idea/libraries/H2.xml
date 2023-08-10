@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="H2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents/H2" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Documents/H2/docs/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/H2/src/java10/src" />
+      <root url="file://$USER_HOME$/Documents/H2/src/java9/src" />
+      <root url="file://$USER_HOME$/Documents/H2/src/main" />
+      <root url="file://$USER_HOME$/Documents/H2/src/test" />
+      <root url="file://$USER_HOME$/Documents/H2/src/tools" />
+    </SOURCES>
+  </library>
+</component>
