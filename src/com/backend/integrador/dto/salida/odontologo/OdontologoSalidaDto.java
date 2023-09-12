@@ -1,34 +1,27 @@
-package com.backend.integrador.entity;
+package com.backend.integrador.dto.salida.odontologo;
 
-import javax.persistence.*;
+public class OdontologoSalidaDto {
 
-@Entity
-@Table(name = "ODONTOLOGOS", uniqueConstraints = {
-        @UniqueConstraint(columnNames = {"matricula"})
-})
-public class Odontologo {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int id;
     private String matricula;
     private String nombre;
     private String apellido;
 
-    public Odontologo() {
+    public OdontologoSalidaDto() {
     }
 
-
-    public Odontologo(String matricula, String nombre, String apellido) {
+    public OdontologoSalidaDto(int id, String matricula, String nombre, String apellido) {
+        this.id = id;
         this.matricula = matricula;
         this.nombre = nombre;
         this.apellido = apellido;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -56,5 +49,8 @@ public class Odontologo {
         this.apellido = apellido;
     }
 
-
+    @Override
+    public String toString() {
+        return "Id: " + id + " - Nombre: " + nombre + " - Apellido: " + apellido + " - Matricula: " + matricula;
+    }
 }
