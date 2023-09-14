@@ -1,4 +1,4 @@
-package com.backend.integrador.exceptions;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;

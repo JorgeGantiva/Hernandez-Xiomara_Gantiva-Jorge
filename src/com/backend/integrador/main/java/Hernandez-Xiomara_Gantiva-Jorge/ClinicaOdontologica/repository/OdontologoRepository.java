@@ -1,6 +1,6 @@
-package com.backend.integrador.repository;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.repository;
 
-import com.backend.integrador.entity.Odontologo;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.entity.Odontologo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

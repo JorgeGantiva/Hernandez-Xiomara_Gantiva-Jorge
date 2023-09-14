@@ -1,4 +1,4 @@
-package com.backend.integrador.dto.salida.turno;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.salida.turno;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

@@ -1,4 +1,4 @@
-package com.backend.integrador.dto.salida.paciente;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.salida.paciente;
 
 public class DomicilioSalidaDto {
 

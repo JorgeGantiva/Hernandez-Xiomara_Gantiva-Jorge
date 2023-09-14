@@ -1,4 +1,4 @@
-package com.backend.integrador.dto.entrada.modificacion;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.entrada.modificacion;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;

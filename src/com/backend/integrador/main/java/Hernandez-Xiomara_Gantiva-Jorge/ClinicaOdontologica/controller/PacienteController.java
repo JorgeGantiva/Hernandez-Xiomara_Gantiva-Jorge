@@ -1,11 +1,11 @@
-package com.backend.integrador.controller;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.controller;
 
 
-import com.backend.integrador.dto.entrada.modificacion.PacienteModificacionEntradaDto;
-import com.backend.integrador.dto.entrada.paciente.PacienteEntradaDto;
-import com.backend.integrador.dto.salida.paciente.PacienteSalidaDto;
-import com.backend.integrador.exceptions.ResourceNotFoundException;
-import com.backend.integrador.service.IPacienteService;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.entrada.modificacion.PacienteModificacionEntradaDto;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.entrada.paciente.PacienteEntradaDto;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.salida.paciente.PacienteSalidaDto;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.exceptions.ResourceNotFoundException;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.service.IPacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,11 +1,11 @@
-package com.backend.integrador.controller;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.controller;
 
 
-import com.backend.integrador.dto.entrada.modificacion.OdontologoModificacionEntradaDto;
-import com.backend.integrador.dto.entrada.odontologo.OdontologoEntradaDto;
-import com.backend.integrador.dto.salida.odontologo.OdontologoSalidaDto;
-import com.backend.integrador.exceptions.ResourceNotFoundException;
-import com.backend.integrador.service.impl.OdontologoService;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.entrada.modificacion.OdontologoModificacionEntradaDto;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.entrada.odontologo.OdontologoEntradaDto;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.salida.odontologo.OdontologoSalidaDto;
+import ccom.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.exceptions.ResourceNotFoundException;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.service.impl.OdontologoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

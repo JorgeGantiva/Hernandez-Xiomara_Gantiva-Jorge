@@ -1,4 +1,4 @@
-package com.backend.integrador.entity;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.entity;
 
 
 import javax.persistence.*;

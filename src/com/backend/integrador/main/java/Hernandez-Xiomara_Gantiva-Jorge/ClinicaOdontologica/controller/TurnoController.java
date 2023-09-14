@@ -1,11 +1,11 @@
-package com.backend.integrador.controller;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.controller;
 
-import com.backend.integrador.dto.entrada.modificacion.TurnoModificacionEntradaDto;
-import com.backend.integrador.dto.entrada.turno.TurnoEntradaDto;
-import com.backend.integrador.dto.salida.turno.TurnoSalidaDto;
-import com.backend.integrador.exceptions.BadRequestException;
-import com.backend.integrador.exceptions.ResourceNotFoundException;
-import com.backend.integrador.service.ITurnoService;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.entrada.modificacion.TurnoModificacionEntradaDto;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.entrada.turno.TurnoEntradaDto;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.dto.salida.turno.TurnoSalidaDto;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.exceptions.BadRequestException;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.exceptions.ResourceNotFoundException;
+import com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.service.ITurnoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package HernandezXiomara_GantivaJorge.ClinicaOdontologica;
+package com.backend.integrador.main.java.Hernandez-Xiomara_Gantiva-Jorge.ClinicaOdontologica.resources.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
